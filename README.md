@@ -1,5 +1,6 @@
 # AdaPTGMM
 
+(This is a forked version of the original AdaPTGMM repo of Patrick Chao for my own experimentation. The installation instructions below will install my own forked version!)
 
 ## Overview
 This package implements [AdaPTGMM](https://arxiv.org/abs/2106.15812), a flexible multiple testing method that uses arbitrary covariates to model the local false discovery rate.
@@ -14,13 +15,13 @@ Users may use their own custom beta models, please read the [vignette](https://p
 
 ```
 # install.packages("devtools")
-devtools::install_github("patrickrchao/AdaPTGMM")
+devtools::install_github("dmhleung/AdaPTGMM")
 ```
 
 Optionally, can also build the vignette.
 ```
 # install.packages("devtools")
-devtools::install_github("patrickrchao/AdaPTGMM",build_vignettes = T)
+devtools::install_github("dmhleung/AdaPTGMM",build_vignettes = T)
 ```
 ### Simulation Example
 We create simulations similar to Section 4.2 of the paper.
