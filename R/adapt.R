@@ -72,7 +72,7 @@ adapt_gmm <- function(x = NULL,
                       intercept_model = TRUE,
                       return_all_models = FALSE
                       ){
-  set.seed(0)
+  
 
   n = nrow(x)
 
